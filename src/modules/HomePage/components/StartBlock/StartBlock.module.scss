@@ -1,0 +1,30 @@
+.startBlock{
+  height: 530px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  .textBlock{
+    display: flex;
+    flex-direction: column;
+    width: 564px;
+    height: 284px;
+    gap: 30px;
+
+    h2{
+      font-family: "Montserrat";
+      font-size: 55px;
+      color: white;
+      font-weight: 800;
+      width: 510px;
+    }
+    p{
+      font-family: "Montserrat";
+      font-size: 20px;
+      color: white;
+      font-weight: 400;
+      width: 564px;
+      height: 120px;
+    }
+  }
+}

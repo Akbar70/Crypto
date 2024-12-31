@@ -1,0 +1,86 @@
+.advantage{
+  height: 1214px;
+  display: flex;
+  gap: 127px;
+  padding: 120px;
+
+
+  .advantagesText{
+    width: 603px;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    h2{
+      font-family: "Montserrat";
+      font-size: 40px;
+      font-weight: 700;
+      color: white;
+    }
+    p{
+      font-family: "Montserrat";
+      font-size: 20px;
+      color: white;
+    }
+  }
+
+  .Advantages{
+    width: 470px;
+    height: 1134px;
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+
+    h2{
+      font-family: "Montserrat";
+      font-size: 28px;
+      font-weight: 700;
+      color: white;
+      background-color: #1C1E32;
+
+    }
+    p{
+      font-family: "Montserrat";
+      font-size: 14px;
+      color: white;
+     background-color: #1c1e3200;
+
+    }
+
+    .Img{
+    width: 100px;
+    height: 100px;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background-color: rgba(0, 0, 0, 0);
+    }          
+
+    }
+
+    .AdvantagesBlock{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 470px;
+      height: 332px;
+      border-radius: 16px;
+      background-color: #1C1E32;
+
+      .AdvantagesContent{
+        margin-top: -50px;
+        width: 387px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-color: #1C1E32;
+        
+
+        
+      }
+    }
+  }
+}
